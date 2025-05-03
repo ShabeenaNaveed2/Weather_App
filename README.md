@@ -19,5 +19,5 @@ const API_KEY = 'your-api-key-here';
 The API endpoint used is:
 https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
 
-*To obtain an API key, visit **OpenWeatherMap**.
+To obtain an API key, visit **OpenWeatherMap**.
 

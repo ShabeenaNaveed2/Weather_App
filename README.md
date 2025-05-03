@@ -35,13 +35,14 @@ WeatherApp/
 This weather app allows users to search for current weather details by entering a city name. The app displays temperature, weather condition, and humidity levels for the selected city. It also includes a splash screen before navigating to the home screen.
 
 **Setup & Run Instructions:**
-**1.** Clone the repository
-**2.** Install dependencies using:
+```text
+1. Clone the repository
+2. Install dependencies using:
        npm install
-**3.** For Android:
+3. For Android:
        npx react-native run-android
-**4.** Ensure that your device is set up for testing or an emulator running.
-
+4. Ensure that your device is set up for testing or an emulator running.
+```
 **API Used:**
 The app fetches weather data from the OpenWeatherMap API.
 

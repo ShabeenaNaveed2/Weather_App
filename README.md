@@ -1,8 +1,8 @@
-
+```text
 WeatherApp/
 │
-├── android/                   
-├── ios/                      
+├── android/                    # Android native project files
+├── ios/                        # iOS native project files
 ├── src/
 │   ├── api/
 │   │   └── WeatherApi.ts       # Handles API request to OpenWeatherMap
@@ -23,12 +23,13 @@ WeatherApp/
 │   │       ├── WeatherDetailsScreen.tsx
 │   │       └── styles.tsx
 │   ├── styles/
-│   │   └── colors.ts           # color definitions
+│   │   └── colors.ts           # Central color definitions
 │   └── types/
 │       └── Interface.ts        # TypeScript interfaces
 │
 ├── App.tsx                     # Entry point of the application
 ├── package.json
+
 
 **Short app description:**
 This weather app allows users to search for current weather details by entering a city name. The app displays temperature, weather condition, and humidity levels for the selected city. It also includes a splash screen before navigating to the home screen.

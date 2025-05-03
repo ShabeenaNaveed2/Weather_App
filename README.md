@@ -1,7 +1,7 @@
-+**Short app description:**
+**Short app description:**
 This weather app allows users to search for current weather details by entering a city name. The app displays temperature, weather condition, and humidity levels for the selected city. It also includes a splash screen before navigating to the home screen.
 
-+**Setup & Run Instructions:**
+**Setup & Run Instructions:**
 **1.** Clone the repository
 **2.** Install dependencies using:
        npm install
@@ -9,10 +9,10 @@ This weather app allows users to search for current weather details by entering 
        npx react-native run-android
 **4.** Ensure that your device is set up for testing or an emulator running.
 
-+**API Used:**
+**API Used:**
 The app fetches weather data from the OpenWeatherMap API.
 
-API Key: Add your API key in the WeatherApi.ts file:
+**API Key:** Add your API key in the WeatherApi.ts file:
 const API_KEY = 'your-api-key-here';
 
 +**API Endpoint:**

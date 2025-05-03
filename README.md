@@ -45,8 +45,8 @@ This weather app allows users to search for current weather details by entering 
 ```
 **API Used:**
 The app fetches weather data from the OpenWeatherMap API.
-
-API Key:```text Add your API key in the WeatherApi.ts file:
+```text
+API Key: Add your API key in the WeatherApi.ts file:
 const API_KEY = 'your-api-key-here';
 ```
 **API Endpoint:**

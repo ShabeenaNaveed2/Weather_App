@@ -59,7 +59,7 @@ To obtain an API key, visit **OpenWeatherMap**.
 **Splash Screen** – Launch image with branding
 **Home Screen** – City search with input validation
 **Weather Details Screen** – Displays temperature, humidity, condition, and weather icon
-
+```text
 **Technologies Used**
 React Native CLI
 TypeScript
@@ -69,5 +69,6 @@ OpenWeatherMap API
 Vector Icons
 Linear Gradient Background
 
+```
 
 

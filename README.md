@@ -15,7 +15,7 @@ The app fetches weather data from the OpenWeatherMap API.
 **API Key:** Add your API key in the WeatherApi.ts file:
 const API_KEY = 'your-api-key-here';
 
-+**API Endpoint:**
+**API Endpoint:**
 The API endpoint used is:
 https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
 

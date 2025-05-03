@@ -1,3 +1,35 @@
+
+WeatherApp/
+│
+├── android/                   
+├── ios/                      
+├── src/
+│   ├── api/
+│   │   └── WeatherApi.ts       # Handles API request to OpenWeatherMap
+│   ├── assets/
+│   │   └── SplashScreen.png    # Splash screen image
+│   ├── components/
+│   │   └── Loading.tsx         # Loading spinner component
+│   ├── navigation/
+│   │   └── AppNavigator.tsx    # React Navigation setup
+│   ├── screens/
+│   │   ├── HomeScreen/
+│   │   │   ├── HomeScreen.tsx  # Input screen to search weather
+│   │   │   └── styles.tsx
+│   │   ├── SplashScreen/
+│   │   │   ├── SplashScreen.tsx
+│   │   │   └── styles.tsx
+│   │   └── WeatherDetailsScreen/
+│   │       ├── WeatherDetailsScreen.tsx
+│   │       └── styles.tsx
+│   ├── styles/
+│   │   └── colors.ts           # color definitions
+│   └── types/
+│       └── Interface.ts        # TypeScript interfaces
+│
+├── App.tsx                     # Entry point of the application
+├── package.json
+
 **Short app description:**
 This weather app allows users to search for current weather details by entering a city name. The app displays temperature, weather condition, and humidity levels for the selected city. It also includes a splash screen before navigating to the home screen.
 
@@ -20,4 +52,21 @@ The API endpoint used is:
 https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric
 
 To obtain an API key, visit **OpenWeatherMap**.
+
+ **Screens Included**
+ 
+**Splash Screen** – Launch image with branding
+**Home Screen** – City search with input validation
+**Weather Details Screen** – Displays temperature, humidity, condition, and weather icon
+
+**Technologies Used**
+React Native CLI
+TypeScript
+React Navigation
+Axios
+OpenWeatherMap API
+Vector Icons
+Linear Gradient Background
+
+
 

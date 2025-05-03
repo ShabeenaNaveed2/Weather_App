@@ -29,7 +29,7 @@ WeatherApp/
 │
 ├── App.tsx                     # Entry point of the application
 ├── package.json
-
+```text
 
 **Short app description:**
 This weather app allows users to search for current weather details by entering a city name. The app displays temperature, weather condition, and humidity levels for the selected city. It also includes a splash screen before navigating to the home screen.
